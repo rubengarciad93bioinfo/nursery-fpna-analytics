@@ -1,0 +1,5 @@
+Country,market_share,plants_per_ha,replacement_rate,price_per_plant,variable_cost_per_plant,annual_opex,budget_growth,forecast_adjustment
+Peru,0.055,3300,0.085,4.1,1.72,620000,0.12,0.08
+Spain,0.09,3200,0.075,4.55,1.85,160000,0.06,-0.03
+Chile,0.07,3000,0.065,4.3,1.79,250000,0.04,-0.06
+Mexico,0.08,3400,0.08,4.25,1.76,170000,0.08,0.02
