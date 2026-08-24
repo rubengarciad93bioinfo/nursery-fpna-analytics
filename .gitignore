@@ -6,3 +6,5 @@ __pycache__/
 # Temporary files
 ~$*
 *.tmp
+# Raw downloaded datasets
+data/raw/*.zip

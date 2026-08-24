@@ -1,0 +1,181 @@
+Area,Item,Element,Year,Unit,Value,Flag
+Chile,Blueberries,Area harvested,2010,ha,7298.0,A
+Chile,Blueberries,Production,2010,t,56000.0,E
+Chile,Blueberries,Yield,2010,kg/ha,7673.3,E
+Chile,Blueberries,Area harvested,2011,ha,7298.0,A
+Chile,Blueberries,Production,2011,t,74000.0,E
+Chile,Blueberries,Yield,2011,kg/ha,10139.8,E
+Chile,Blueberries,Area harvested,2012,ha,12376.0,A
+Chile,Blueberries,Production,2012,t,78000.0,E
+Chile,Blueberries,Yield,2012,kg/ha,6302.5,E
+Chile,Blueberries,Area harvested,2013,ha,14723.0,A
+Chile,Blueberries,Production,2013,t,82000.0,E
+Chile,Blueberries,Yield,2013,kg/ha,5569.5,E
+Chile,Blueberries,Area harvested,2014,ha,14476.0,A
+Chile,Blueberries,Production,2014,t,88000.0,E
+Chile,Blueberries,Yield,2014,kg/ha,6079.0,E
+Chile,Blueberries,Area harvested,2015,ha,14573.0,A
+Chile,Blueberries,Production,2015,t,93000.0,E
+Chile,Blueberries,Yield,2015,kg/ha,6381.7,E
+Chile,Blueberries,Area harvested,2016,ha,15801.0,A
+Chile,Blueberries,Production,2016,t,116000.0,E
+Chile,Blueberries,Yield,2016,kg/ha,7341.3,E
+Chile,Blueberries,Area harvested,2017,ha,15707.0,A
+Chile,Blueberries,Production,2017,t,95000.0,E
+Chile,Blueberries,Yield,2017,kg/ha,6048.3,E
+Chile,Blueberries,Area harvested,2018,ha,15815.0,A
+Chile,Blueberries,Production,2018,t,126000.0,E
+Chile,Blueberries,Yield,2018,kg/ha,7967.1,E
+Chile,Blueberries,Area harvested,2019,ha,18373.0,A
+Chile,Blueberries,Production,2019,t,130004.33,I
+Chile,Blueberries,Yield,2019,kg/ha,7075.8,E
+Chile,Blueberries,Area harvested,2020,ha,18375.0,A
+Chile,Blueberries,Production,2020,t,127050.73,I
+Chile,Blueberries,Yield,2020,kg/ha,6914.3,E
+Chile,Blueberries,Area harvested,2021,ha,18216.0,A
+Chile,Blueberries,Production,2021,t,127000.0,E
+Chile,Blueberries,Yield,2021,kg/ha,6971.9,E
+Chile,Blueberries,Area harvested,2022,ha,17822.0,A
+Chile,Blueberries,Production,2022,t,124296.55,I
+Chile,Blueberries,Yield,2022,kg/ha,6974.3,E
+Chile,Blueberries,Area harvested,2023,ha,17631.0,A
+Chile,Blueberries,Production,2023,t,122332.6,I
+Chile,Blueberries,Yield,2023,kg/ha,6938.5,E
+Chile,Blueberries,Area harvested,2024,ha,14038.0,A
+Chile,Blueberries,Production,2024,t,97218.79,I
+Chile,Blueberries,Yield,2024,kg/ha,6925.4,E
+Mexico,Blueberries,Area harvested,2010,ha,106.0,A
+Mexico,Blueberries,Production,2010,t,1059.0,A
+Mexico,Blueberries,Yield,2010,kg/ha,9990.6,A
+Mexico,Blueberries,Area harvested,2011,ha,636.0,A
+Mexico,Blueberries,Production,2011,t,6704.0,A
+Mexico,Blueberries,Yield,2011,kg/ha,10540.9,A
+Mexico,Blueberries,Area harvested,2012,ha,885.0,A
+Mexico,Blueberries,Production,2012,t,7191.0,A
+Mexico,Blueberries,Yield,2012,kg/ha,8125.4,A
+Mexico,Blueberries,Area harvested,2013,ha,1290.0,A
+Mexico,Blueberries,Production,2013,t,10160.0,A
+Mexico,Blueberries,Yield,2013,kg/ha,7876.0,A
+Mexico,Blueberries,Area harvested,2014,ha,1803.0,A
+Mexico,Blueberries,Production,2014,t,18031.41,A
+Mexico,Blueberries,Yield,2014,kg/ha,10000.4,A
+Mexico,Blueberries,Area harvested,2015,ha,2031.0,A
+Mexico,Blueberries,Production,2015,t,15488.54,A
+Mexico,Blueberries,Yield,2015,kg/ha,7625.8,A
+Mexico,Blueberries,Area harvested,2016,ha,2946.0,A
+Mexico,Blueberries,Production,2016,t,29066.69,A
+Mexico,Blueberries,Yield,2016,kg/ha,9865.4,A
+Mexico,Blueberries,Area harvested,2017,ha,3334.0,A
+Mexico,Blueberries,Production,2017,t,36699.7,A
+Mexico,Blueberries,Yield,2017,kg/ha,11007.2,A
+Mexico,Blueberries,Area harvested,2018,ha,3611.0,A
+Mexico,Blueberries,Production,2018,t,40251.34,A
+Mexico,Blueberries,Yield,2018,kg/ha,11146.4,A
+Mexico,Blueberries,Area harvested,2019,ha,4319.0,A
+Mexico,Blueberries,Production,2019,t,48998.58,A
+Mexico,Blueberries,Yield,2019,kg/ha,11343.9,A
+Mexico,Blueberries,Area harvested,2020,ha,4610.0,A
+Mexico,Blueberries,Production,2020,t,50292.63,A
+Mexico,Blueberries,Yield,2020,kg/ha,10909.5,A
+Mexico,Blueberries,Area harvested,2021,ha,5833.0,A
+Mexico,Blueberries,Production,2021,t,66481.52,A
+Mexico,Blueberries,Yield,2021,kg/ha,11398.1,A
+Mexico,Blueberries,Area harvested,2022,ha,4331.0,A
+Mexico,Blueberries,Production,2022,t,66846.62,A
+Mexico,Blueberries,Yield,2022,kg/ha,15434.5,A
+Mexico,Blueberries,Area harvested,2023,ha,5836.0,A
+Mexico,Blueberries,Production,2023,t,80133.49,A
+Mexico,Blueberries,Yield,2023,kg/ha,13731.6,A
+Mexico,Blueberries,Area harvested,2024,ha,5843.0,A
+Mexico,Blueberries,Production,2024,t,80533.93,A
+Mexico,Blueberries,Yield,2024,kg/ha,13783.7,A
+Peru,Blueberries,Area harvested,2010,ha,32.0,X
+Peru,Blueberries,Production,2010,t,30.0,X
+Peru,Blueberries,Yield,2010,kg/ha,937.5,X
+Peru,Blueberries,Area harvested,2011,ha,280.0,X
+Peru,Blueberries,Production,2011,t,320.0,X
+Peru,Blueberries,Yield,2011,kg/ha,1142.9,X
+Peru,Blueberries,Area harvested,2012,ha,400.0,A
+Peru,Blueberries,Production,2012,t,560.0,A
+Peru,Blueberries,Yield,2012,kg/ha,1400.0,A
+Peru,Blueberries,Area harvested,2013,ha,650.0,A
+Peru,Blueberries,Production,2013,t,1668.0,A
+Peru,Blueberries,Yield,2013,kg/ha,2566.2,A
+Peru,Blueberries,Area harvested,2014,ha,300.0,A
+Peru,Blueberries,Production,2014,t,2500.0,A
+Peru,Blueberries,Yield,2014,kg/ha,8333.3,A
+Peru,Blueberries,Area harvested,2015,ha,1158.0,A
+Peru,Blueberries,Production,2015,t,10585.0,A
+Peru,Blueberries,Yield,2015,kg/ha,9140.8,A
+Peru,Blueberries,Area harvested,2016,ha,1945.0,A
+Peru,Blueberries,Production,2016,t,22978.29,A
+Peru,Blueberries,Yield,2016,kg/ha,11814.0,A
+Peru,Blueberries,Area harvested,2017,ha,4134.0,A
+Peru,Blueberries,Production,2017,t,52301.0,A
+Peru,Blueberries,Yield,2017,kg/ha,12651.4,A
+Peru,Blueberries,Area harvested,2018,ha,6011.0,A
+Peru,Blueberries,Production,2018,t,94805.0,A
+Peru,Blueberries,Yield,2018,kg/ha,15771.9,A
+Peru,Blueberries,Area harvested,2019,ha,11027.0,E
+Peru,Blueberries,Production,2019,t,147900.0,A
+Peru,Blueberries,Yield,2019,kg/ha,13412.5,E
+Peru,Blueberries,Area harvested,2020,ha,14278.0,E
+Peru,Blueberries,Production,2020,t,179305.0,A
+Peru,Blueberries,Yield,2020,kg/ha,12558.1,E
+Peru,Blueberries,Area harvested,2021,ha,18168.0,E
+Peru,Blueberries,Production,2021,t,228160.0,A
+Peru,Blueberries,Yield,2021,kg/ha,12558.1,E
+Peru,Blueberries,Area harvested,2022,ha,23298.0,E
+Peru,Blueberries,Production,2022,t,292584.0,A
+Peru,Blueberries,Yield,2022,kg/ha,12558.1,E
+Peru,Blueberries,Area harvested,2023,ha,18266.0,E
+Peru,Blueberries,Production,2023,t,229390.0,A
+Peru,Blueberries,Yield,2023,kg/ha,12558.1,E
+Peru,Blueberries,Area harvested,2024,ha,28157.0,E
+Peru,Blueberries,Production,2024,t,353600.0,A
+Peru,Blueberries,Yield,2024,kg/ha,12558.1,E
+Spain,Blueberries,Area harvested,2010,ha,522.0,I
+Spain,Blueberries,Production,2010,t,6696.49,I
+Spain,Blueberries,Yield,2010,kg/ha,12819.3,E
+Spain,Blueberries,Area harvested,2011,ha,547.0,I
+Spain,Blueberries,Production,2011,t,6857.91,I
+Spain,Blueberries,Yield,2011,kg/ha,12546.3,E
+Spain,Blueberries,Area harvested,2012,ha,572.0,I
+Spain,Blueberries,Production,2012,t,7019.33,I
+Spain,Blueberries,Yield,2012,kg/ha,12273.3,E
+Spain,Blueberries,Area harvested,2013,ha,975.0,I
+Spain,Blueberries,Production,2013,t,11911.59,I
+Spain,Blueberries,Yield,2013,kg/ha,12213.2,E
+Spain,Blueberries,Area harvested,2014,ha,1760.0,E
+Spain,Blueberries,Production,2014,t,21060.0,E
+Spain,Blueberries,Yield,2014,kg/ha,11968.2,E
+Spain,Blueberries,Area harvested,2015,ha,1803.0,A
+Spain,Blueberries,Production,2015,t,21060.0,A
+Spain,Blueberries,Yield,2015,kg/ha,11680.5,A
+Spain,Blueberries,Area harvested,2016,ha,2260.0,A
+Spain,Blueberries,Production,2016,t,24945.0,A
+Spain,Blueberries,Yield,2016,kg/ha,11037.6,A
+Spain,Blueberries,Area harvested,2017,ha,3260.0,A
+Spain,Blueberries,Production,2017,t,35355.0,A
+Spain,Blueberries,Yield,2017,kg/ha,10845.1,A
+Spain,Blueberries,Area harvested,2018,ha,3720.0,A
+Spain,Blueberries,Production,2018,t,43520.0,A
+Spain,Blueberries,Yield,2018,kg/ha,11698.9,A
+Spain,Blueberries,Area harvested,2019,ha,4030.0,A
+Spain,Blueberries,Production,2019,t,53380.0,A
+Spain,Blueberries,Yield,2019,kg/ha,13245.7,A
+Spain,Blueberries,Area harvested,2020,ha,4210.0,A
+Spain,Blueberries,Production,2020,t,48520.0,A
+Spain,Blueberries,Yield,2020,kg/ha,11524.9,A
+Spain,Blueberries,Area harvested,2021,ha,4570.0,A
+Spain,Blueberries,Production,2021,t,61230.0,A
+Spain,Blueberries,Yield,2021,kg/ha,13398.2,A
+Spain,Blueberries,Area harvested,2022,ha,4810.0,A
+Spain,Blueberries,Production,2022,t,70420.0,A
+Spain,Blueberries,Yield,2022,kg/ha,14640.3,A
+Spain,Blueberries,Area harvested,2023,ha,4890.0,A
+Spain,Blueberries,Production,2023,t,57670.0,A
+Spain,Blueberries,Yield,2023,kg/ha,11793.5,A
+Spain,Blueberries,Area harvested,2024,ha,5180.0,A
+Spain,Blueberries,Production,2024,t,60950.0,A
+Spain,Blueberries,Yield,2024,kg/ha,11766.4,A

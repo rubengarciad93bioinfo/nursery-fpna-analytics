@@ -1,0 +1,103 @@
+Area,Item,Element,Year,Unit,Value,Flag
+Peru,Blueberries,Export quantity,2013,t,1499.0,A
+Peru,Blueberries,Export quantity,2014,t,2899.2,A
+Peru,Blueberries,Export quantity,2015,t,10209.96,A
+Peru,Blueberries,Export quantity,2016,t,54479.68,A
+Peru,Blueberries,Export quantity,2017,t,43038.97,A
+Peru,Blueberries,Export quantity,2018,t,74003.13,A
+Peru,Blueberries,Export quantity,2019,t,125055.83,A
+Peru,Blueberries,Export quantity,2020,t,162174.36,A
+Peru,Blueberries,Export value,2013,1000 USD,16943.0,A
+Peru,Blueberries,Export value,2014,1000 USD,30357.0,A
+Peru,Blueberries,Export value,2015,1000 USD,95804.0,A
+Peru,Blueberries,Export value,2016,1000 USD,474241.0,A
+Peru,Blueberries,Export value,2017,1000 USD,361613.0,A
+Peru,Blueberries,Export value,2018,1000 USD,547938.0,A
+Peru,Blueberries,Export value,2019,1000 USD,820415.0,A
+Peru,Blueberries,Export value,2020,1000 USD,1002975.0,A
+Chile,Blueberries,Import quantity,2020,t,22.95,A
+Chile,Blueberries,Import quantity,2021,t,84.04,A
+Chile,Blueberries,Import quantity,2022,t,131.44,A
+Chile,Blueberries,Import quantity,2024,t,354.0,A
+Chile,Blueberries,Import value,2020,1000 USD,160.0,A
+Chile,Blueberries,Import value,2021,1000 USD,475.0,A
+Chile,Blueberries,Import value,2022,1000 USD,764.0,A
+Chile,Blueberries,Import value,2024,1000 USD,2306.0,A
+Chile,Blueberries,Export quantity,2010,t,0.0,E
+Chile,Blueberries,Export quantity,2011,t,0.0,E
+Chile,Blueberries,Export quantity,2012,t,0.0,E
+Chile,Blueberries,Export quantity,2013,t,0.0,E
+Chile,Blueberries,Export quantity,2020,t,106180.59,A
+Chile,Blueberries,Export quantity,2021,t,112810.08,A
+Chile,Blueberries,Export quantity,2022,t,105431.14,A
+Chile,Blueberries,Export quantity,2023,t,29099.0,X
+Chile,Blueberries,Export quantity,2024,t,89582.11,A
+Chile,Blueberries,Export value,2010,1000 USD,0.0,E
+Chile,Blueberries,Export value,2011,1000 USD,0.0,E
+Chile,Blueberries,Export value,2012,1000 USD,0.0,E
+Chile,Blueberries,Export value,2013,1000 USD,0.0,E
+Chile,Blueberries,Export value,2020,1000 USD,556001.0,A
+Chile,Blueberries,Export value,2021,1000 USD,577140.0,A
+Chile,Blueberries,Export value,2022,1000 USD,444220.0,A
+Chile,Blueberries,Export value,2023,1000 USD,139534.0,X
+Chile,Blueberries,Export value,2024,1000 USD,447484.0,A
+Spain,Blueberries,Import quantity,2010,t,438.0,A
+Spain,Blueberries,Import quantity,2011,t,452.0,A
+Spain,Blueberries,Import quantity,2012,t,1089.0,A
+Spain,Blueberries,Import quantity,2013,t,2646.0,A
+Spain,Blueberries,Import quantity,2014,t,4439.7,A
+Spain,Blueberries,Import quantity,2015,t,5938.3,A
+Spain,Blueberries,Import quantity,2016,t,6042.03,A
+Spain,Blueberries,Import quantity,2017,t,2648.59,A
+Spain,Blueberries,Import quantity,2018,t,2703.44,A
+Spain,Blueberries,Import quantity,2019,t,2901.49,A
+Spain,Blueberries,Import quantity,2020,t,6576.16,A
+Spain,Blueberries,Import quantity,2021,t,3904.97,A
+Spain,Blueberries,Import quantity,2022,t,6181.25,A
+Spain,Blueberries,Import quantity,2023,t,5545.16,A
+Spain,Blueberries,Import quantity,2024,t,5681.63,A
+Spain,Blueberries,Import value,2010,1000 USD,3845.0,A
+Spain,Blueberries,Import value,2011,1000 USD,2641.0,A
+Spain,Blueberries,Import value,2012,1000 USD,7103.0,A
+Spain,Blueberries,Import value,2013,1000 USD,18596.0,A
+Spain,Blueberries,Import value,2014,1000 USD,31610.0,A
+Spain,Blueberries,Import value,2015,1000 USD,40547.0,A
+Spain,Blueberries,Import value,2016,1000 USD,44453.0,A
+Spain,Blueberries,Import value,2017,1000 USD,24806.0,A
+Spain,Blueberries,Import value,2018,1000 USD,21660.0,A
+Spain,Blueberries,Import value,2019,1000 USD,19949.0,A
+Spain,Blueberries,Import value,2020,1000 USD,36662.0,A
+Spain,Blueberries,Import value,2021,1000 USD,21012.0,A
+Spain,Blueberries,Import value,2022,1000 USD,28745.0,A
+Spain,Blueberries,Import value,2023,1000 USD,29738.0,A
+Spain,Blueberries,Import value,2024,1000 USD,26118.0,A
+Spain,Blueberries,Export quantity,2010,t,2042.0,A
+Spain,Blueberries,Export quantity,2011,t,4790.0,A
+Spain,Blueberries,Export quantity,2012,t,6299.0,A
+Spain,Blueberries,Export quantity,2013,t,6877.0,A
+Spain,Blueberries,Export quantity,2014,t,10643.56,A
+Spain,Blueberries,Export quantity,2015,t,14139.88,A
+Spain,Blueberries,Export quantity,2016,t,19300.1,A
+Spain,Blueberries,Export quantity,2017,t,26429.21,A
+Spain,Blueberries,Export quantity,2018,t,33893.82,A
+Spain,Blueberries,Export quantity,2019,t,45624.58,A
+Spain,Blueberries,Export quantity,2020,t,40474.66,A
+Spain,Blueberries,Export quantity,2021,t,36663.03,A
+Spain,Blueberries,Export quantity,2022,t,42449.61,A
+Spain,Blueberries,Export quantity,2023,t,29483.72,A
+Spain,Blueberries,Export quantity,2024,t,35173.39,A
+Spain,Blueberries,Export value,2010,1000 USD,18424.0,A
+Spain,Blueberries,Export value,2011,1000 USD,32950.0,A
+Spain,Blueberries,Export value,2012,1000 USD,53099.0,A
+Spain,Blueberries,Export value,2013,1000 USD,68566.0,A
+Spain,Blueberries,Export value,2014,1000 USD,89318.0,A
+Spain,Blueberries,Export value,2015,1000 USD,97395.0,A
+Spain,Blueberries,Export value,2016,1000 USD,148274.0,A
+Spain,Blueberries,Export value,2017,1000 USD,161421.0,A
+Spain,Blueberries,Export value,2018,1000 USD,221449.0,A
+Spain,Blueberries,Export value,2019,1000 USD,233634.0,A
+Spain,Blueberries,Export value,2020,1000 USD,259525.0,A
+Spain,Blueberries,Export value,2021,1000 USD,250218.0,A
+Spain,Blueberries,Export value,2022,1000 USD,227723.0,A
+Spain,Blueberries,Export value,2023,1000 USD,201386.0,A
+Spain,Blueberries,Export value,2024,1000 USD,227011.0,A
