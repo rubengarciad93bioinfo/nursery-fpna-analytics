@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Global Nursery Finance Analytics</title>
+
+  <style>
+    :root {
+      --bg: #f5f7fa;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #667085;
+      --accent: #173b67;
+      --border: #e5e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: auto;
+      padding: 56px 24px 72px;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      margin: 0 0 16px;
+      letter-spacing: -0.04em;
+    }
+
+    h2 {
+      margin-top: 56px;
+      font-size: 1.7rem;
+    }
+
+    .subtitle {
+      max-width: 850px;
+      color: var(--muted);
+      font-size: 1.15rem;
+      line-height: 1.7;
+    }
+
+    .buttons {
+      margin: 30px 0 45px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 13px 20px;
+      border-radius: 8px;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .button.secondary {
+      background: white;
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin: 36px 0 50px;
+    }
+
+    .metric {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 22px;
+    }
+
+    .metric-label {
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-bottom: 8px;
+    }
+
+    .metric-value {
+      font-size: 1.8rem;
+      font-weight: 700;
+    }
+
+    .dashboard {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+    }
+
+    .iframe-wrapper {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%;
+    }
+
+    .iframe-wrapper iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .section {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 28px;
+      margin-top: 22px;
+      line-height: 1.65;
+    }
+
+    .pipeline {
+      font-family: monospace;
+      white-space: pre-wrap;
+      background: #111827;
+      color: #f9fafb;
+      border-radius: 8px;
+      padding: 22px;
+      line-height: 1.7;
+    }
+
+    footer {
+      margin-top: 60px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 800px) {
+      .metrics {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+
+    <h1>Global Nursery Finance Analytics</h1>
+
+    <p class="subtitle">
+      Finance analytics portfolio project combining Python, automated Excel
+      reporting and Power BI to analyze Budget vs Forecast performance,
+      regional results and investment decisions for a fictional international
+      blueberry nursery business.
+    </p>
+
+    <div class="buttons">
+      <a class="button"
+         href="https://app.powerbi.com/view?r=eyJrIjoiNjQwNzdmYWItMDM2MC00MzY3LWFhOGYtMzE3YTZkMmNmMWM4IiwidCI6ImM5YjZjNzVhLTk3MzAtNDkwMC1hMDQ0LTVlNTM3NjhlMTM3OSJ9"
+         target="_blank">
+        Open Power BI Dashboard
+      </a>
+
+      <a class="button secondary"
+         href="excel/Nursery_FP%26A_Model.xlsx">
+        Download Excel Model
+      </a>
+
+      <a class="button secondary"
+         href="https://github.com/rubengarciad93bioinfo/nursery-fpna-analytics"
+         target="_blank">
+        View Source Code
+      </a>
+    </div>
+
+    <div class="metrics">
+      <div class="metric">
+        <div class="metric-label">2025 Forecast Revenue</div>
+        <div class="metric-value">$4.19M</div>
+      </div>
+
+      <div class="metric">
+        <div class="metric-label">Revenue vs Budget</div>
+        <div class="metric-value">+3.0%</div>
+      </div>
+
+      <div class="metric">
+        <div class="metric-label">2025 Forecast EBITDA</div>
+        <div class="metric-value">$1.19M</div>
+      </div>
+
+      <div class="metric">
+        <div class="metric-label">EBITDA vs Budget</div>
+        <div class="metric-value">+6.7%</div>
+      </div>
+    </div>
+
+    <h2>Interactive Power BI Report</h2>
+
+    <p class="subtitle">
+      Explore regional Budget vs Forecast performance and monthly financial
+      variance using the interactive filters in the report.
+    </p>
+
+    <div class="dashboard">
+      <div class="iframe-wrapper">
+        <iframe
+          title="Global Nursery Finance Analytics"
+          src="https://app.powerbi.com/view?r=eyJrIjoiNjQwNzdmYWItMDM2MC00MzY3LWFhOGYtMzE3YTZkMmNmMWM4IiwidCI6ImM5YjZjNzVhLTk3MzAtNDkwMC1hMDQ0LTVlNTM3NjhlMTM3OSJ9"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+
+    <h2>Financial Model</h2>
+
+    <div class="section">
+      <p>
+        The underlying analytical workflow combines public blueberry market
+        data with transparent modeled business assumptions.
+      </p>
+
+      <p>
+        The project covers regional Budget vs Forecast reporting, monthly
+        financial analysis and a CAPEX investment case using NPV, IRR and
+        payback calculations.
+      </p>
+    </div>
+
+    <h2>Workflow</h2>
+
+    <div class="pipeline">FAOSTAT market data
+        ↓
+Python ingestion & transformation
+        ↓
+Financial & operational model
+        ↓
+Budget / Forecast / CAPEX analysis
+        ↓
+Automated Excel reporting + Power BI</div>
+
+    <footer>
+      Portfolio case study. Public market data are combined with modeled
+      company assumptions and do not represent the financial performance
+      of any real company.
+    </footer>
+
+  </main>
+</body>
+</html>
