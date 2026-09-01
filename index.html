@@ -151,6 +151,72 @@
         grid-template-columns: repeat(2, 1fr);
       }
     }
+  
+    /* CAPEX */
+    .capex-meta {
+      color: var(--muted, #667085);
+      margin-bottom: 24px;
+    }
+
+    .capex-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      margin: 26px 0;
+    }
+
+    .capex-card {
+      background: var(--card, #ffffff);
+      border: 1px solid var(--border, #e5e7eb);
+      border-radius: 12px;
+      padding: 24px;
+    }
+
+    .capex-card.base {
+      border: 2px solid var(--accent, #173b67);
+    }
+
+    .capex-scenario {
+      font-weight: 700;
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    .capex-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 9px 0;
+      border-bottom: 1px solid var(--border, #e5e7eb);
+    }
+
+    .capex-row:last-child {
+      border-bottom: 0;
+    }
+
+    .capex-label {
+      color: var(--muted, #667085);
+    }
+
+    .capex-value {
+      font-weight: 700;
+    }
+
+    .capex-decision {
+      background: var(--card, #ffffff);
+      border-left: 4px solid var(--accent, #173b67);
+      border-radius: 8px;
+      padding: 22px 24px;
+      margin-top: 24px;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 800px) {
+      .capex-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
   </style>
 </head>
 
@@ -250,6 +316,91 @@ Financial & operational model
 Budget / Forecast / CAPEX analysis
         ↓
 Automated Excel reporting + Power BI</div>
+
+    
+    <h2>CAPEX Investment Analysis</h2>
+
+    <p class="capex-meta">
+      5-year modeled nursery expansion case · Initial investment $850k · 10% discount rate
+    </p>
+
+    <div class="capex-grid">
+
+      <div class="capex-card">
+        <div class="capex-scenario">Downside</div>
+
+        <div class="capex-row">
+          <span class="capex-label">NPV</span>
+          <span class="capex-value">-$241k</span>
+        </div>
+
+        <div class="capex-row">
+          <span class="capex-label">IRR</span>
+          <span class="capex-value">-0.1%</span>
+        </div>
+
+        <div class="capex-row">
+          <span class="capex-label">Payback</span>
+          <span class="capex-value">Not reached</span>
+        </div>
+      </div>
+
+
+      <div class="capex-card base">
+        <div class="capex-scenario">Base Case</div>
+
+        <div class="capex-row">
+          <span class="capex-label">NPV</span>
+          <span class="capex-value">+$218k</span>
+        </div>
+
+        <div class="capex-row">
+          <span class="capex-label">IRR</span>
+          <span class="capex-value">18.0%</span>
+        </div>
+
+        <div class="capex-row">
+          <span class="capex-label">Payback</span>
+          <span class="capex-value">3.6 years</span>
+        </div>
+      </div>
+
+
+      <div class="capex-card">
+        <div class="capex-scenario">Upside</div>
+
+        <div class="capex-row">
+          <span class="capex-label">NPV</span>
+          <span class="capex-value">+$613k</span>
+        </div>
+
+        <div class="capex-row">
+          <span class="capex-label">IRR</span>
+          <span class="capex-value">31.0%</span>
+        </div>
+
+        <div class="capex-row">
+          <span class="capex-label">Payback</span>
+          <span class="capex-value">2.8 years</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="capex-decision">
+      <strong>Investment decision — Base Case</strong><br>
+      The modeled expansion generates a positive $218k NPV and an 18.0% IRR,
+      exceeding the 10% hurdle rate. The investment is recovered in approximately
+      3.6 years, while scenario analysis highlights the downside risk if operating
+      assumptions deteriorate.
+    </div>
+
+    <div class="buttons">
+      <a class="button secondary"
+         href="excel/Nursery_FP%26A_Model.xlsx">
+        Download Full CAPEX Model
+      </a>
+    </div>
 
     <footer>
       Portfolio case study. Public market data are combined with modeled
