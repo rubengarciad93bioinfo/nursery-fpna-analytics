@@ -8,13 +8,13 @@ The project combines **Python, automated Excel reporting and Power BI** to analy
 
 ## Interactive Power BI Dashboard
 
-[**Open the interactive dashboard**](https://app.powerbi.com/view?r=eyJrIjoiNjQwNzdmYWItMDM2MC00MzY3LWFhOGYtMzE3YTZkMmNmMWM4IiwidCI6ImM5YjZjNzVhLTk3MzAtNDkwMC1hMDQ0LTVlNTM3NjhlMTM3OSJ9)
+[**Open the interactive dashboard**](https://app.powerbi.com/view?r=eyJrIjoiNjQwNzdmYWItMDM2MC00MzY3LWFhOGYtMzE3YTZkMmNmMWM4IiwidCI6ImM5YjZjNzVhLTk3MzAtNDkwMC1hMDQ0LTVlNTM3NjhlMTM3OSJ9&pageName=a20dbd2f80ff19abbce0)
 
 The dashboard provides an executive and monthly view of financial performance, with interactive country filtering and Budget vs Forecast analysis.
 
 ## Excel Financial Model
 
-[**Download the automated Excel model**](excel/Nursery_FP&26A_Model.xlsx)
+[**Download the automated Excel model**](excel/Nursery_FP&A_Model.xlsx)
 
 The workbook includes executive reporting, monthly performance, regional Budget vs Forecast analysis and a CAPEX investment case with NPV, IRR and payback calculations.
 
