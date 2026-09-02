@@ -121,15 +121,6 @@
       border: 0;
     }
 
-    .section {
-      background: white;
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 28px;
-      margin-top: 22px;
-      line-height: 1.65;
-    }
-
     .pipeline {
       font-family: monospace;
       white-space: pre-wrap;
@@ -217,6 +208,81 @@
       }
     }
 
+  
+    /* Workflow diagram */
+    .workflow-diagram {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr auto 1fr;
+      align-items: stretch;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .workflow-step {
+      min-width: 0;
+      background: var(--card, #ffffff);
+      border: 1px solid var(--border, #e5e7eb);
+      border-radius: 12px;
+      padding: 22px 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .workflow-number {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--accent, #173b67);
+      color: white;
+      font-size: 0.78rem;
+      font-weight: 700;
+    }
+
+    .workflow-step h3 {
+      margin: 3px 0 0;
+      font-size: 1rem;
+    }
+
+    .workflow-step p {
+      margin: 0;
+      color: var(--muted, #667085);
+      font-size: 0.86rem;
+      line-height: 1.5;
+    }
+
+    .workflow-tech {
+      margin-top: auto;
+      padding-top: 8px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--accent, #173b67);
+    }
+
+    .workflow-arrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--muted, #667085);
+      font-size: 1.6rem;
+      padding: 0 2px;
+    }
+
+    @media (max-width: 1050px) {
+      .workflow-diagram {
+        grid-template-columns: 1fr;
+        gap: 8px;
+      }
+
+      .workflow-arrow {
+        min-height: 26px;
+        transform: rotate(90deg);
+      }
+    }
+
   </style>
 </head>
 
@@ -290,34 +356,6 @@
       </div>
     </div>
 
-    <h2>Financial Model</h2>
-
-    <div class="section">
-      <p>
-        The underlying analytical workflow combines public blueberry market
-        data with transparent modeled business assumptions.
-      </p>
-
-      <p>
-        The project covers regional Budget vs Forecast reporting, monthly
-        financial analysis and a CAPEX investment case using NPV, IRR and
-        payback calculations.
-      </p>
-    </div>
-
-    <h2>Workflow</h2>
-
-    <div class="pipeline">FAOSTAT market data
-        ↓
-Python ingestion & transformation
-        ↓
-Financial & operational model
-        ↓
-Budget / Forecast / CAPEX analysis
-        ↓
-Automated Excel reporting + Power BI</div>
-
-    
     <h2>CAPEX Investment Analysis</h2>
 
     <p class="capex-meta">
@@ -400,6 +438,70 @@ Automated Excel reporting + Power BI</div>
          href="excel/Nursery_FP%26A_Model.xlsx">
         Download Full CAPEX Model
       </a>
+    </div>
+
+    <h2>Workflow</h2>
+
+    <div class="workflow-diagram">
+
+      <div class="workflow-step">
+        <div class="workflow-number">01</div>
+        <h3>Market Data</h3>
+        <p>
+          Public blueberry production data provide external
+          regional market drivers.
+        </p>
+        <div class="workflow-tech">FAOSTAT</div>
+      </div>
+
+      <div class="workflow-arrow">→</div>
+
+      <div class="workflow-step">
+        <div class="workflow-number">02</div>
+        <h3>Data Pipeline</h3>
+        <p>
+          Data are downloaded, cleaned, transformed and validated
+          programmatically.
+        </p>
+        <div class="workflow-tech">Python · pandas</div>
+      </div>
+
+      <div class="workflow-arrow">→</div>
+
+      <div class="workflow-step">
+        <div class="workflow-number">03</div>
+        <h3>Financial Model</h3>
+        <p>
+          Market drivers are combined with modeled operating
+          and financial assumptions.
+        </p>
+        <div class="workflow-tech">Revenue · COGS · OPEX · EBITDA</div>
+      </div>
+
+      <div class="workflow-arrow">→</div>
+
+      <div class="workflow-step">
+        <div class="workflow-number">04</div>
+        <h3>FP&amp;A Analysis</h3>
+        <p>
+          Performance and investment decisions are evaluated
+          across scenarios.
+        </p>
+        <div class="workflow-tech">Budget · Forecast · NPV · IRR</div>
+      </div>
+
+      <div class="workflow-arrow">→</div>
+
+      <div class="workflow-step">
+        <div class="workflow-number">05</div>
+        <h3>Management Reporting</h3>
+        <p>
+          Results are converted into interactive and automated
+          decision-support reporting.
+        </p>
+        <div class="workflow-tech">Excel · Power BI · DAX</div>
+      </div>
+
     </div>
 
     <footer>
